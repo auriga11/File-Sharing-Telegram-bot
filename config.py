@@ -58,7 +58,7 @@ https://dashboard.shareus.io/
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
-USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "FALSE") == "TRUE" else False 
+USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "modijiurl.com")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
@@ -79,7 +79,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/openshort_links/12")
 
 #Payment to remove the token system
 #put TRUE if you want this feature
-USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "FALSE") == "TRUE" else False) and (USE_SHORTLINK) else False
+USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
 #UPI ID
 UPI_ID = os.environ.get("UPI_ID", " ")
 #UPI QR CODE IMAGE
@@ -106,10 +106,10 @@ FORCE_MSG = os.environ.get("FORCE_MSG", "Hello {first}\n\n<b>You need to join in
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 #protected content so that no files can be sent from the bot to anyone. recommended False
 # TRUE for yes FALSE if no
-PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
+PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "TRUE") == "TRUE" else False
 #used if you dont need buttons on database channel.
 # True for yes False if no
-DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE") == "TRUE" else False
+DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "FALSE") == "TRUE" else False
 #you can add admin inside the bot(bug right now will fix later)
 
 #add admins with space seperated
