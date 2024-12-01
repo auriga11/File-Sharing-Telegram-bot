@@ -83,18 +83,18 @@ USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" e
 #UPI ID
 UPI_ID = os.environ.get("UPI_ID", " TRY QR CODE FOR MOW ")
 #UPI QR CODE IMAGE
-UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://graph.org/file/fc4395d14d0532bc63f5a-cd68b0fe4beb287da1.jpg")
+UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://graph.org/file/c748acc6579def946cb98-d3fcb6942a863bc825.jpg")
 #SCREENSHOT URL of ADMIN for verification of payments
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/supplywala_support_bot")
 #Time and its price
 #7 Days
 PRICE1 = os.environ.get("PRICE1", "30 rs")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "110 rs")
+PRICE2 = os.environ.get("PRICE2", "109 rs")
 #3 Month
 PRICE3 = os.environ.get("PRICE3", "299 rs")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "550 rs")
+PRICE4 = os.environ.get("PRICE4", "549 rs")
 #1 Year
 PRICE5 = os.environ.get("PRICE5", "799 rs")
 
