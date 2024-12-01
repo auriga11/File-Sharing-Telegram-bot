@@ -19,9 +19,9 @@ if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
     FORCE_SUB_CHANNEL = temp
 
 #bot stats
-BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME 🌺</b>\n{uptime}")
+BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}")
 #send custom message when user interact with bot
-USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Want To Create Your Private File Share Bot ? Contact @hf_owner ! 📌")
+USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Want To Create Your Private File Share Bot ? Contact @hf_owner !")
 
 #your bot token here from https://telegram.me/BotFather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
@@ -43,7 +43,7 @@ DB_NAME = os.environ.get("DB_NAME", "filestorebot")
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
 #your start default command message.
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link. 💾")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link. ")
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "@otpkaseller")
 #Time in seconds for message delete, put 0 to never delete
@@ -81,7 +81,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/openshort_links/12")
 #put TRUE if you want this feature
 USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
 #UPI ID
-UPI_ID = os.environ.get("UPI_ID", " ")
+UPI_ID = os.environ.get("UPI_ID", " TRY QR CODE FOR MOW ")
 #UPI QR CODE IMAGE
 UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://graph.org/file/fc4395d14d0532bc63f5a-cd68b0fe4beb287da1.jpg")
 #SCREENSHOT URL of ADMIN for verification of payments
