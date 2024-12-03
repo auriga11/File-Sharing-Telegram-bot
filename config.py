@@ -21,7 +21,7 @@ if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
 #bot stats
 BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}")
 #send custom message when user interact with bot
-USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Want To Create Your Private File Share Bot ? Contact @hf_owner !")
+USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ONLY ADMIN CAN ACCESS ! <b>Want To Create Your Private File Share Bot ? Contact @hf_owner !</b>")
 
 #your bot token here from https://telegram.me/BotFather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
@@ -88,15 +88,15 @@ UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://tinyurl.com/f4tnzdke")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/supplywala_support_bot")
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "30 rs")
+PRICE1 = os.environ.get("PRICE1", "₹30 / 0.5$")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "109 rs")
+PRICE2 = os.environ.get("PRICE2", "₹109 / 1.5$")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "299 rs")
+PRICE3 = os.environ.get("PRICE3", "₹299 / 3.6$")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "549 rs")
+PRICE4 = os.environ.get("PRICE4", "₹549 / 6.6$")
 #1 Year
-PRICE5 = os.environ.get("PRICE5", "799 rs")
+PRICE5 = os.environ.get("PRICE5", "₹799 / 9.6$")
 
 
 
