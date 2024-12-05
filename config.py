@@ -60,10 +60,10 @@ https://dashboard.shareus.io/
 # TRUE for yes FALSE if no 
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "publicearn.com")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "modijiurl.com")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "b3bcb9ce632a8cd2b5d944313f6a2b1ad0ae4c57")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "e886ea0af8839407a1b27bdf760e2ab00c09d082")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
@@ -83,7 +83,7 @@ USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" e
 #UPI ID
 UPI_ID = os.environ.get("UPI_ID", " TRY QR CODE FOR MOW ")
 #UPI QR CODE IMAGE
-UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://tinyurl.com/f4tnzdke")
+UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://tinyurl.com/QrPayHere")
 #SCREENSHOT URL of ADMIN for verification of payments
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/supplywala_support_bot")
 #Time and its price
