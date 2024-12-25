@@ -47,7 +47,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store privat
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "@otpkaseller")
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "300"))
+TIME = int(os.environ.get("TIME", "540"))
 
 
 #Shortner (token system) 
@@ -63,7 +63,7 @@ USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else F
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "runurl.in")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "f20039ef51e42ddcf5f500aff0f7817490169e00")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "bf8c7df84b4f60b54554327de10e5d1c941e63f6")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
@@ -81,9 +81,9 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/niggaslayer_07/82")
 #put TRUE if you want this feature
 USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
 #UPI ID
-UPI_ID = os.environ.get("UPI_ID", " @shit_payment ")
+UPI_ID = os.environ.get("UPI_ID", " harshitnarang07@fam  ")
 #UPI QR CODE IMAGE
-UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://t.me/niggaslayerspreview/4")
+UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://t.me/shit_payment")
 #SCREENSHOT URL of ADMIN for verification of payments
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/SHIT_PROXY_BOT")
 #Time and its price
