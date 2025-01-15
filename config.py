@@ -24,7 +24,7 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}"
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ONLY ADMIN CAN ACCESS ! <b>Want To Create Your Private File Share Bot ? Contact @hf_owner ! CHANNEL - @hacking_freak</b>")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7876492066:AAEI6JQDus-1Cbzctl87mucuBh3qtu5nWm4") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", "23630387"))
 #your api hash from https://my.telegram.org/apps
@@ -63,7 +63,7 @@ USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else F
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "shortxlinks.com")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "590996ddd8fd64a0104c6c3c93c43b4ee1ce57e9")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "06e4d390120cf61e69ad730b252c480142ad1ac7")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
