@@ -43,11 +43,11 @@ DB_NAME = os.environ.get("DB_NAME", "filestorebot")
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
 #your start default command message.
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link. ")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link. Created By - @hacking_freak ")
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "@otpkaseller")
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "32400"))
+TIME = int(os.environ.get("TIME", "600"))
 
 
 #Shortner (token system) 
@@ -60,10 +60,10 @@ https://dashboard.shareus.io/
 # TRUE for yes FALSE if no 
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "shortxlinks.com")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "modijiurl.com")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "06e4d390120cf61e69ad730b252c480142ad1ac7")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "64ee083bf8bf3abc2c40d3a725ffde917cd7801a")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
