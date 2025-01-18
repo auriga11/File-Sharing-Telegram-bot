@@ -88,25 +88,25 @@ UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://t.me/owner_details")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/swycp")
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "₹299 / 3.6$")
+PRICE1 = os.environ.get("PRICE1", "₹199 / 3$")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "₹120 / 1.5$")
+PRICE2 = os.environ.get("PRICE2", "₹399 / 5$")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "₹299 / 3.6$")
+PRICE3 = os.environ.get("PRICE3", "₹299 / 3.7$")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "₹549 / 6.6$")
+PRICE4 = os.environ.get("PRICE4", "₹349 / 4.5$")
 #1 Year
-PRICE5 = os.environ.get("PRICE5", "₹799 / 9.6$")
+PRICE5 = os.environ.get("PRICE5", "₹499 / 6.2$")
 
 
 
 #force message for joining the channel
 FORCE_MSG = os.environ.get("FORCE_MSG", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b> 🥺")
 #custom caption 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", Telegram @Swbackups @Supplywala_Membership)
 #protected content so that no files can be sent from the bot to anyone. recommended False
 # TRUE for yes FALSE if no
-PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "TRUE") == "TRUE" else False
+PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
 #used if you dont need buttons on database channel.
 # True for yes False if no
 DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "FALSE") == "TRUE" else False
