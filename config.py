@@ -88,7 +88,7 @@ UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://t.me/owner_details")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/swycp")
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "₹40 / 0.5$")
+PRICE1 = os.environ.get("PRICE1", "₹299 / 3.6$")
 #1 Month
 PRICE2 = os.environ.get("PRICE2", "₹120 / 1.5$")
 #3 Month
