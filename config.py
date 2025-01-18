@@ -103,7 +103,7 @@ PRICE5 = os.environ.get("PRICE5", "₹499 / 6.2$")
 #force message for joining the channel
 FORCE_MSG = os.environ.get("FORCE_MSG", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b> 🥺")
 #custom caption 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", Telegram @Swbackups @Supplywala_Membership)
+CUSTOM_CAPTION = os.environ.get("Telegram @Swbackups @Supplywala_Membership")
 #protected content so that no files can be sent from the bot to anyone. recommended False
 # TRUE for yes FALSE if no
 PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
