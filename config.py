@@ -30,9 +30,9 @@ APP_ID = int(os.environ.get("APP_ID", "23630387"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "3139998ebc89c2bc1873b794689f8e56")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002262308327"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002440933626"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
-OWNER_ID = int(os.environ.get("OWNER_ID", "7634077852"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7232145470"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "8080")
 #your database url mongodb only You can use mongo atlas free cloud database
@@ -106,7 +106,7 @@ FORCE_MSG = os.environ.get("FORCE_MSG", "Hello {first}\n\n<b>You need to join in
 CUSTOM_CAPTION = os.environ.get("Telegram @Swbackups @Supplywala_Membership")
 #protected content so that no files can be sent from the bot to anyone. recommended False
 # TRUE for yes FALSE if no
-PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
+PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "TRUE") == "TRUE" else False
 #used if you dont need buttons on database channel.
 # True for yes False if no
 DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TURE") == "TRUE" else False
